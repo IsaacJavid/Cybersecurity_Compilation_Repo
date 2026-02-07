@@ -329,21 +329,16 @@
             "labels": [
               ""
             ],
-            "id": "c1767629-5e0e-4d77-b123-fe4a153c6ebe",
+            "id": "39aa7747-0fd5-4d1e-ae43-16efbb63f988",
             "source": {
-              "x": 830,
-              "y": 290
+              "cell": "a9ebcafe-6ee7-4f30-be97-d8cdfc9205fd",
+              "port": "b93a431f-00a8-404b-a3ea-051eeb49ad48"
             },
             "target": {
-              "x": 750,
-              "y": 340
+              "cell": "382c10d9-2693-44ce-9bb8-1115c38d2e3a",
+              "port": "7ec1916d-6a3d-4c71-97a6-ceff6f40acbf"
             },
-            "vertices": [
-              {
-                "x": 820,
-                "y": 340
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -381,16 +376,56 @@
             "labels": [
               ""
             ],
-            "id": "39aa7747-0fd5-4d1e-ae43-16efbb63f988",
+            "id": "c1767629-5e0e-4d77-b123-fe4a153c6ebe",
             "source": {
-              "cell": "a9ebcafe-6ee7-4f30-be97-d8cdfc9205fd",
-              "port": "b93a431f-00a8-404b-a3ea-051eeb49ad48"
+              "x": 830,
+              "y": 320
             },
             "target": {
-              "cell": "382c10d9-2693-44ce-9bb8-1115c38d2e3a",
-              "port": "7ec1916d-6a3d-4c71-97a6-ceff6f40acbf"
+              "x": 750,
+              "y": 340
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 820,
+                "y": 340
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -413,6 +448,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -496,7 +532,6 @@
               ]
             },
             "id": "b5cb8be5-4f7c-488d-badb-37f72f175978",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Browser Client",
@@ -569,6 +604,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -665,8 +701,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 14
+            }
           },
           {
             "position": {
@@ -689,6 +724,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -785,8 +821,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 15
+            }
           },
           {
             "position": {
@@ -809,6 +844,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -905,8 +941,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 16
+            }
           },
           {
             "position": {
@@ -929,6 +964,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 17,
             "ports": {
               "groups": {
                 "top": {
@@ -1025,8 +1061,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 17
+            }
           },
           {
             "shape": "flow",
@@ -1044,6 +1079,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 18,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1072,8 +1108,7 @@
               "x": 172,
               "y": 442
             },
-            "vertices": [],
-            "zIndex": 18
+            "vertices": []
           },
           {
             "position": {
@@ -1096,6 +1131,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 19,
             "ports": {
               "groups": {
                 "top": {
@@ -1179,7 +1215,6 @@
               ]
             },
             "id": "a62a7613-5900-418c-ab0e-31033f41993f",
-            "zIndex": 19,
             "data": {
               "type": "tm.Actor",
               "name": "Spoofing",
@@ -1192,7 +1227,7 @@
               "threats": [
                 {
                   "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing",
+                  "title": "Spoofing Threat",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Spoofing",
@@ -1205,7 +1240,7 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             }
@@ -1260,6 +1295,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 21,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1281,8 +1317,7 @@
             "target": {
               "x": 852,
               "y": 462
-            },
-            "zIndex": 21
+            }
           },
           {
             "position": {
@@ -1305,6 +1340,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 22,
             "ports": {
               "groups": {
                 "top": {
@@ -1399,8 +1435,8 @@
               "providesAuthentication": false,
               "threats": [
                 {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing",
+                  "id": "c24ddd3e-2071-4c80-ba4e-7dec7242014e",
+                  "title": "Elevation of Privilege Threat",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Spoofing",
@@ -1408,7 +1444,7 @@
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
-                  "number": 2,
+                  "number": 3,
                   "score": ""
                 }
               ],
@@ -1416,8 +1452,7 @@
                 "spoofing": 1,
                 "repudiation": 0
               }
-            },
-            "zIndex": 22
+            }
           },
           {
             "shape": "flow",
@@ -1435,6 +1470,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 23,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1463,7 +1499,6 @@
               "x": 640,
               "y": 40
             },
-            "zIndex": 23,
             "vertices": []
           },
           {
@@ -1482,6 +1517,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 24,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1510,8 +1546,7 @@
               "x": 1000,
               "y": 30
             },
-            "vertices": [],
-            "zIndex": 24
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1529,6 +1564,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 25,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1557,278 +1593,7 @@
               "x": 770,
               "y": 60
             },
-            "vertices": [],
-            "zIndex": 25
-          },
-          {
-            "position": {
-              "x": 790,
-              "y": 250
-            },
-            "size": {
-              "width": 60,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "Spoofing"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b93a431f-00a8-404b-a3ea-051eeb49ad48"
-                },
-                {
-                  "group": "right",
-                  "id": "accad3ce-7306-410d-8ef9-57386bdb360f"
-                },
-                {
-                  "group": "bottom",
-                  "id": "5fcf4afe-116d-4113-8893-816434e5bf07"
-                },
-                {
-                  "group": "left",
-                  "id": "eda0089b-9b66-49ec-b5be-7f3c5aeb475a"
-                }
-              ]
-            },
-            "id": "f98584ee-8503-499f-9e43-6fb738fad6d1",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Spoofing",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 1,
-                "repudiation": 0
-              }
-            },
-            "zIndex": 26
-          },
-          {
-            "position": {
-              "x": 1082,
-              "y": 270
-            },
-            "size": {
-              "width": 90,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "Spoofing"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "b93a431f-00a8-404b-a3ea-051eeb49ad48"
-                },
-                {
-                  "group": "right",
-                  "id": "accad3ce-7306-410d-8ef9-57386bdb360f"
-                },
-                {
-                  "group": "bottom",
-                  "id": "5fcf4afe-116d-4113-8893-816434e5bf07"
-                },
-                {
-                  "group": "left",
-                  "id": "eda0089b-9b66-49ec-b5be-7f3c5aeb475a"
-                }
-              ]
-            },
-            "id": "1c0f88e9-610c-43eb-a598-ec6c457fd21c",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Spoofing",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 1,
-                "repudiation": 0
-              }
-            },
-            "zIndex": 27
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1846,6 +1611,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 28,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1867,17 +1633,16 @@
             ],
             "id": "c0059008-0420-424c-b8ec-b433e36802f6",
             "source": {
-              "x": 1130,
+              "x": 1110,
               "y": 320
             },
             "target": {
               "x": 1122,
               "y": 362
             },
-            "zIndex": 28,
             "vertices": [
               {
-                "x": 1150,
+                "x": 1130,
                 "y": 340
               }
             ]
@@ -1898,6 +1663,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 29,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1926,8 +1692,7 @@
               "x": 762,
               "y": 412
             },
-            "vertices": [],
-            "zIndex": 29
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1945,6 +1710,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 30,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1973,13 +1739,147 @@
               "x": 1012,
               "y": 442
             },
-            "vertices": [],
-            "zIndex": 30
+            "vertices": []
           },
           {
             "position": {
               "x": 979,
               "y": 199.99999999999994
+            },
+            "size": {
+              "width": 150,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Tampering With Data\nUsing LDAP Injection"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 31,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b93a431f-00a8-404b-a3ea-051eeb49ad48"
+                },
+                {
+                  "group": "right",
+                  "id": "accad3ce-7306-410d-8ef9-57386bdb360f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5fcf4afe-116d-4113-8893-816434e5bf07"
+                },
+                {
+                  "group": "left",
+                  "id": "eda0089b-9b66-49ec-b5be-7f3c5aeb475a"
+                }
+              ]
+            },
+            "id": "a9ebcafe-6ee7-4f30-be97-d8cdfc9205fd",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Tampering With Data\nUsing LDAP Injection",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
+                  "title": "Tampering Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 979,
+              "y": 270
             },
             "size": {
               "width": 150,
@@ -2079,7 +1979,7 @@
                 }
               ]
             },
-            "id": "a9ebcafe-6ee7-4f30-be97-d8cdfc9205fd",
+            "id": "1e9ee154-1ae0-4420-a0ca-69c54e73bda8",
             "data": {
               "type": "tm.Actor",
               "name": "Tampering With Data\nUsing SQL Injection",
@@ -2092,7 +1992,7 @@
               "threats": [
                 {
                   "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing",
+                  "title": "Tampering Threat",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Spoofing",
@@ -2105,17 +2005,152 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "repudiation": 0
               }
             },
-            "zIndex": 31
+            "zIndex": 32
+          },
+          {
+            "position": {
+              "x": 782,
+              "y": 270
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Spoofing"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b93a431f-00a8-404b-a3ea-051eeb49ad48"
+                },
+                {
+                  "group": "right",
+                  "id": "accad3ce-7306-410d-8ef9-57386bdb360f"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5fcf4afe-116d-4113-8893-816434e5bf07"
+                },
+                {
+                  "group": "left",
+                  "id": "eda0089b-9b66-49ec-b5be-7f3c5aeb475a"
+                }
+              ]
+            },
+            "id": "f3143b2b-820e-4469-9c6f-aab3802b9e66",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Spoofing",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
+                  "title": "Spoofing Threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "repudiation": 0
+              }
+            },
+            "zIndex": 33
           }
         ]
       }
     ],
     "diagramTop": 2,
     "reviewer": "Isaac",
-    "threatTop": 2
+    "threatTop": 3
   }
 }
