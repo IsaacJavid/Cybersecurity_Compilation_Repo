@@ -1089,8 +1089,8 @@
                 "text": "Spoofing"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1187,25 +1187,11 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 1,
                 "repudiation": 0
               }
             }
@@ -1298,8 +1284,8 @@
                 "text": "Elevation Of\nPrivilege"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1396,25 +1382,11 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "c24ddd3e-2071-4c80-ba4e-7dec7242014e",
-                  "title": "Elevation of Privilege Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 3,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 0,
                 "repudiation": 0
               }
             }
@@ -1720,8 +1692,8 @@
                 "text": "Tampering With Data\nUsing LDAP Injection"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1818,25 +1790,11 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Tampering Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 1,
                 "repudiation": 0
               }
             }
@@ -1855,8 +1813,8 @@
                 "text": "Tampering With Data\nUsing SQL Injection"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -1953,25 +1911,11 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Tampering Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 1,
                 "repudiation": 0
               }
             }
@@ -1990,8 +1934,8 @@
                 "text": "Spoofing"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -2088,25 +2032,11 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "d2db0aab-60f8-4f0d-b3c6-2425f63dffba",
-                  "title": "Spoofing Threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 1,
                 "repudiation": 0
               }
             }
