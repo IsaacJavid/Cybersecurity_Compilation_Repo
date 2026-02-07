@@ -387,45 +387,10 @@
             },
             "vertices": [
               {
-                "x": 820,
+                "x": 810,
                 "y": 340
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -1897,6 +1862,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 32,
             "ports": {
               "groups": {
                 "top": {
@@ -2008,8 +1974,7 @@
                 "spoofing": 2,
                 "repudiation": 0
               }
-            },
-            "zIndex": 32
+            }
           },
           {
             "position": {
@@ -2032,6 +1997,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 33,
             "ports": {
               "groups": {
                 "top": {
@@ -2143,8 +2109,7 @@
                 "spoofing": 2,
                 "repudiation": 0
               }
-            },
-            "zIndex": 33
+            }
           }
         ]
       }
