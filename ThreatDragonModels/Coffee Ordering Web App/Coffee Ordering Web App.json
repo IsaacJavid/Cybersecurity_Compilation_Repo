@@ -1,0 +1,31 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Coffee Ordering Web App",
+    "owner": "IsaacJavid",
+    "description": "The Brew & Bloom Coffee Co. ordering web application is a digital platform designed to enhance the customer experience and streamline internal operations of the coffee shop. More specifically, it is designed to provide a convenient online for customers to browse the menu, customize, and place orders for pickup or delivery, and to equip staff with tools for efficient order and menu management.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "IsaacJavid"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Web App Data Flow",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": [],
+        "description": "Diagram showcasing the application's data flow."
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
