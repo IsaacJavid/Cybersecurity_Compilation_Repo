@@ -387,7 +387,7 @@
           },
           {
             "position": {
-              "x": -630,
+              "x": -570,
               "y": 230
             },
             "size": {
@@ -556,8 +556,8 @@
             },
             "vertices": [
               {
-                "x": -510,
-                "y": -30
+                "x": -540,
+                "y": -70
               }
             ]
           },
@@ -608,8 +608,8 @@
             },
             "vertices": [
               {
-                "x": -510,
-                "y": 50
+                "x": -490,
+                "y": 0
               }
             ]
           },
@@ -970,7 +970,6 @@
               "cell": "78b499fb-d32b-4426-a83e-4c14439c785d",
               "port": "35b92c6f-a062-4de0-b438-0dbd7d819669"
             },
-            "vertices": [],
             "tools": {
               "items": [
                 "boundary",
@@ -1075,7 +1074,8 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1122,7 +1122,6 @@
               "cell": "3cd97c0f-017a-4c11-8ab0-ac8a4ee93dcd",
               "port": "35b92c6f-a062-4de0-b438-0dbd7d819669"
             },
-            "vertices": [],
             "tools": {
               "items": [
                 "boundary",
@@ -1192,7 +1191,8 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": []
           },
           {
             "position": {
@@ -1560,8 +1560,8 @@
           },
           {
             "position": {
-              "x": -432.5,
-              "y": -30
+              "x": -440,
+              "y": -80
             },
             "size": {
               "width": 112.5,
@@ -1677,7 +1677,7 @@
           },
           {
             "position": {
-              "x": -290,
+              "x": -270,
               "y": 110
             },
             "size": {
