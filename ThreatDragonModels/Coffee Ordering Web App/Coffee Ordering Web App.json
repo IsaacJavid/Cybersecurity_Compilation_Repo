@@ -1102,6 +1102,7 @@
               "Validate\nstatus"
             ],
             "id": "687e9bee-035f-42fa-96d7-a51f722161e0",
+            "parent": "47fdc6f7-d931-4588-89cb-64cc0dc55121",
             "source": {
               "cell": "47fdc6f7-d931-4588-89cb-64cc0dc55121",
               "port": "40c38de9-920c-4ad5-99d6-aa572c8343e5"
@@ -1119,8 +1120,7 @@
                 "x": -950,
                 "y": 220
               }
-            ],
-            "parent": "47fdc6f7-d931-4588-89cb-64cc0dc55121"
+            ]
           },
           {
             "shape": "flow",
@@ -2405,6 +2405,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 25,
             "ports": {
               "groups": {
                 "top": {
@@ -2505,8 +2506,7 @@
             "children": [
               "5c015aab-d016-4ca9-98cd-623fa9b57b83",
               "473b43f9-3c80-4042-ae77-3e083c9f259e"
-            ],
-            "zIndex": 25
+            ]
           },
           {
             "shape": "flow",
@@ -2524,6 +2524,7 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 26,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2544,88 +2545,30 @@
               "Authenticate \nuser"
             ],
             "id": "5c015aab-d016-4ca9-98cd-623fa9b57b83",
+            "parent": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
             "source": {
               "cell": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
-              "port": "40c38de9-920c-4ad5-99d6-aa572c8343e5"
+              "port": "234396fe-5e74-420d-86c8-8444c74a27ce"
             },
             "target": {
               "cell": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
-              "port": "40c38de9-920c-4ad5-99d6-aa572c8343e5"
+              "port": "234396fe-5e74-420d-86c8-8444c74a27ce"
             },
             "vertices": [
               {
-                "x": 50,
-                "y": 100
+                "x": 30,
+                "y": 280
               },
               {
-                "x": 85,
-                "y": 70
+                "x": 60,
+                "y": 300
               }
-            ],
-            "parent": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
-            "zIndex": 26
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Process\nsales data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Process\nsales data"
-            ],
-            "id": "473b43f9-3c80-4042-ae77-3e083c9f259e",
-            "source": {
-              "cell": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
-              "port": "40c38de9-920c-4ad5-99d6-aa572c8343e5"
-            },
-            "target": {
-              "cell": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
-              "port": "40c38de9-920c-4ad5-99d6-aa572c8343e5"
-            },
-            "vertices": [
-              {
-                "x": 150,
-                "y": 90
-              },
-              {
-                "x": 150,
-                "y": 130
-              }
-            ],
-            "parent": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
-            "zIndex": 27
+            ]
           },
           {
             "position": {
-              "x": 460,
-              "y": 150
+              "x": -20,
+              "y": -160
             },
             "size": {
               "width": 112.5,
@@ -2643,6 +2586,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 28,
             "ports": {
               "groups": {
                 "top": {
@@ -2736,8 +2680,7 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            },
-            "zIndex": 28
+            }
           },
           {
             "shape": "flow",
@@ -2790,6 +2733,54 @@
                 "y": 110
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 30,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Process\nsales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Process\nsales data"
+            ],
+            "id": "473b43f9-3c80-4042-ae77-3e083c9f259e",
+            "parent": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
+            "source": {
+              "x": 210,
+              "y": 320
+            },
+            "target": {
+              "cell": "fe66ab21-3565-4709-8749-d89cd7c9e4a2",
+              "port": "234396fe-5e74-420d-86c8-8444c74a27ce"
+            },
+            "vertices": []
           }
         ],
         "description": "Diagram showcasing the application's data flow."
