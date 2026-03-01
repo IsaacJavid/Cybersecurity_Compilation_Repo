@@ -467,13 +467,6 @@
                 "informationDisclosure": 2,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -2266,6 +2259,45 @@
                   "new": false,
                   "number": 71,
                   "score": ""
+                },
+                {
+                  "id": "371facd7-78d8-4221-beef-2aaf389ad970",
+                  "title": "Customer to Staff Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A customer could exploit a vulnerability to gain unauthorized access to Barista, Manager, or Administrator functionalities.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 74,
+                  "score": ""
+                },
+                {
+                  "id": "67775528-1b8d-4374-bcb3-2dde2d1a6e14",
+                  "title": "Barista/Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista or Manager could exploit a vulnerability to gain Administrator privileges.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 77,
+                  "score": ""
+                },
+                {
+                  "id": "a7454287-dd4b-410a-ba31-c46f495f80aa",
+                  "title": "Horizontal Privilege Escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 80,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -2274,7 +2306,7 @@
                 "repudiation": 2,
                 "informationDisclosure": 4,
                 "denialOfService": 2,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 3
               }
             },
             "children": [
@@ -3204,6 +3236,45 @@
                   "new": false,
                   "number": 73,
                   "score": ""
+                },
+                {
+                  "id": "6b4abbfd-1f1e-4e41-8e81-60224bc6b81e",
+                  "title": "Customer to Staff Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A customer could exploit a vulnerability to gain unauthorized access to Barista, Manager, or Administrator functionalities.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 76,
+                  "score": ""
+                },
+                {
+                  "id": "ac25ffe7-705d-47d7-93bd-ae14a1767fdd",
+                  "title": "Barista/Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista or Manager could exploit a vulnerability to gain Administrator privileges.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 79,
+                  "score": ""
+                },
+                {
+                  "id": "251ae57e-180f-4684-b0c4-c3d6203c6830",
+                  "title": "Horizontal Privilege Escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 82,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -3212,13 +3283,20 @@
                 "repudiation": 2,
                 "informationDisclosure": 5,
                 "denialOfService": 2,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 3
               }
             },
             "children": [
               "3ae8b2b9-8ad6-4252-b157-8c603de56983",
               "687e9bee-035f-42fa-96d7-a51f722161e0"
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -3563,6 +3641,45 @@
                   "new": false,
                   "number": 72,
                   "score": ""
+                },
+                {
+                  "id": "86a6ca9f-29de-4096-a0f8-af103537fd0e",
+                  "title": "Customer to Staff Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A customer could exploit a vulnerability to gain unauthorized access to Barista, Manager, or Administrator functionalities.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 75,
+                  "score": ""
+                },
+                {
+                  "id": "4068ce3a-1c9e-4b22-954f-e6d99c3a48a4",
+                  "title": "Barista/Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista or Manager could exploit a vulnerability to gain Administrator privileges.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 78,
+                  "score": ""
+                },
+                {
+                  "id": "2866e164-dbcb-467e-b9d3-df99661dfe85",
+                  "title": "Horizontal Privilege Escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 81,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -3571,7 +3688,7 @@
                 "repudiation": 2,
                 "informationDisclosure": 5,
                 "denialOfService": 2,
-                "elevationOfPrivilege": 0
+                "elevationOfPrivilege": 3
               }
             },
             "children": [
@@ -3963,6 +4080,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 32,
             "ports": {
               "groups": {
                 "top": {
@@ -4093,8 +4211,7 @@
                 "informationDisclosure": 1,
                 "denialOfService": 1
               }
-            },
-            "zIndex": 32
+            }
           }
         ],
         "description": "Diagram showcasing the application's data flow."
@@ -4102,6 +4219,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 73
+    "threatTop": 82
   }
 }
