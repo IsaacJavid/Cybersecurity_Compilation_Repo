@@ -3289,14 +3289,7 @@
             "children": [
               "3ae8b2b9-8ad6-4252-b157-8c603de56983",
               "687e9bee-035f-42fa-96d7-a51f722161e0"
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
